@@ -29,7 +29,7 @@ const x = [
 const y = [0,0,1,1];
 ```
 
-Then just create a new Perceptron passing the size of the data, the learning rate and the number of iterations
+Then just create a new Perceptron passing the shape of the data (height and weight), the learning rate and the number of iterations. By default the learning rate is set to 0.01 and the number of iterations is set to 10.
 
 ```
 const p = new Perceptron( x[0].length );
