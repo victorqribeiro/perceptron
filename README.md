@@ -6,14 +6,15 @@ The simplest [Perceptron](https://en.wikipedia.org/wiki/Perceptron) you'll ever 
 
 Let's suppose you have the following data set:
 
-0 - adult
-1 - child
+| Height (cm) | Weight (kg) | Class (0-1) |
+|-------------|-------------|-------------|
+| 180         | 80          | 0           |
+| 175         | 67          | 0           |
+| 100         | 30          | 1           |
+| 120         | 32          | 1           |
 
-height (cm), weight (kg), class (0-1)
-180, 80, 0
-175, 67, 0
-100, 30, 1
-120, 32, 1
+0 - adult  
+1 - child
 
 You need to process the table to this format:
 
