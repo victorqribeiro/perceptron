@@ -1,9 +1,9 @@
 class Perceptron {
 
-	constructor(size, learningRate, iterarions){
+	constructor(size, learningRate, iterations){
 		this.weights = Array(++size).fill(0);
 		this.lr = learningRate || 0.01;
-		this.it = iterarions || 10;
+		this.it = iterations || 10;
 	}
 
 	predict(inputs){
