@@ -1,4 +1,4 @@
-const p = new Perceptron(x.length);
+const p = new Perceptron(x[0].length);
 
 p.fit(x,y);
 
