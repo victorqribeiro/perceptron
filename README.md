@@ -38,7 +38,7 @@ const p = new Perceptron( x[0].length );
 Call the fit function
 
 ```
-p.fit();
+p.fit(x,y);
 ```
 
 And you're all set to make predictions
