@@ -32,7 +32,7 @@ const y = [0,0,1,1];
 Then just create a new Perceptron passing the size of the data, the learning rate and the number of iterations
 
 ```
-const p = new Perceptrion( x.length );
+const p = new Perceptron( x.length );
 ```
 
 Call the fit function
