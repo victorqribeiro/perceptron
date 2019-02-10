@@ -48,3 +48,7 @@ p.predict([178, 70])
 ```
 
 Super simple.
+
+# Applications
+
+[Can a simple perceptron drive a car in a game?](https://github.com/victorqribeiro/carGamePerceptron)
